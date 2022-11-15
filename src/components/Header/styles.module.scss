@@ -1,0 +1,37 @@
+@import "../../styles/global-imports";
+
+.header {
+  background-color: #bb1e1e;
+
+  .blackBar {
+    background-color: #161616;
+    height: 2rem;
+  }
+
+  .headerContent {
+    height: 6rem;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding: 0 1rem;
+
+    display: flex;
+    justify-content: center;
+
+    div {
+      display: flex;
+      align-items: center;
+
+      &:first-child {
+        img {
+          height: 2.5rem;
+        }
+      }
+
+      h1 {
+        margin-left: 1rem;
+        color: #fff;
+      }
+    }
+  }
+}

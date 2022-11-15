@@ -1,8 +1,9 @@
 import React from 'react';
+import {AppRoutes} from './routes/index';
 
 function App() {
   return (
-    <div>Run App</div>
+    <AppRoutes />
   );
 }
 
