@@ -6,4 +6,29 @@
   max-width: 1200px;
   margin: 0 auto;
   height: 100%;
+
+  .mainHeader {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include for-phone-only {
+      flex-direction: column;
+    }
+
+    @include for-tablet-portrait-up {
+      flex-direction: column;
+    }
+
+    @include for-tablet-landscape-up {
+      flex-direction: row;
+    }
+  }
+
+  .mainContent {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-top: 3rem;
+  }
 }

@@ -54,22 +54,22 @@
     }
   }
 
-  // @include typeColor("Fire", $fire);
-  // @include typeColor("Normal", $normal);
-  // @include typeColor("Water", $water);
-  // @include typeColor("Grass", $grass, $font);
-  // @include typeColor("Ice", $ice);
-  // @include typeColor("Poison", $poison);
-  // @include typeColor("Ground", $ground);
-  // @include typeColor("Flying", $flying);
-  // @include typeColor("Bug", $bug);
-  // @include typeColor("Rock", $rock);
-  // @include typeColor("Ghost", $ghost);
-  // @include typeColor("Dragon", $dragon);
-  // @include typeColor("Dark", $dark);
-  // @include typeColor("Steel", $steel);
-  // @include typeColor("Fairy", $fairy);
-  // @include typeColor("Psychic", $psychic);
-  // @include typeColor("Electric", $electric);
-  // @include typeColor("Fighting", $fighting);
+  @include typeColor("Fire", $fire);
+  @include typeColor("Normal", $normal);
+  @include typeColor("Water", $water);
+  @include typeColor("Grass", $grass, $font);
+  @include typeColor("Ice", $ice);
+  @include typeColor("Poison", $poison);
+  @include typeColor("Ground", $ground);
+  @include typeColor("Flying", $flying);
+  @include typeColor("Bug", $bug);
+  @include typeColor("Rock", $rock);
+  @include typeColor("Ghost", $ghost);
+  @include typeColor("Dragon", $dragon);
+  @include typeColor("Dark", $dark);
+  @include typeColor("Steel", $steel);
+  @include typeColor("Fairy", $fairy);
+  @include typeColor("Psychic", $psychic);
+  @include typeColor("Electric", $electric);
+  @include typeColor("Fighting", $fighting);
 }

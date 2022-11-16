@@ -17,9 +17,9 @@ export function Home() {
             <SortOption />
           </header>
           <div className={styles.mainContent}>
-            <section className={styles.filterSection}>
+            <aside className={styles.filterSection}>
               <FilterMenu />
-            </section>
+            </aside>
             <section className={styles.pokemonsSection}>
               <GridCard />
             </section>
