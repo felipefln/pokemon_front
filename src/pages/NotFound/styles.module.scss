@@ -1,0 +1,16 @@
+@import "../../styles/global-imports";
+
+.page404container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+  h1 {
+    color: $dark-gray;
+  }
+
+  img {
+    margin-top: 3rem;
+    height: 15rem;
+  }
+}
