@@ -1,0 +1,34 @@
+@import "../../styles/_global-imports";
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  input {
+    background-color: #e7e7e7;
+
+    width: 30rem;
+    height: 2.5rem;
+    padding: 0 1rem;
+
+    border: none;
+    border-radius: 20px;
+
+    font-weight: 400;
+
+    &::placeholder {
+      font-weight: 300;
+    }
+
+    @include for-phone-only {
+      width: 21rem;
+    }
+  }
+
+  i {
+    color: #e2350d;
+    position: absolute;
+    left: 92%;
+  }
+}

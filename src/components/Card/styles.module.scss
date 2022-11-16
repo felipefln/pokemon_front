@@ -1,0 +1,75 @@
+@import "../../styles/global-imports";
+
+.card {
+  width: 150px;
+
+  &:hover {
+    .cardImage button.onlyHover {
+      visibility: visible;
+    }
+  }
+
+  .cardImage {
+    button.always {
+      visibility: visible;
+    }
+
+    button {
+      background-color: none;
+      border: none;
+      margin-left: 83%;
+      margin-top: 0.4rem;
+      visibility: hidden;
+
+      i {
+        color: red;
+      }
+    }
+
+    width: 100%;
+    height: 9rem;
+    background-color: rgb(233, 233, 233);
+
+    img {
+      margin: -5px auto;
+      display: block;
+      filter: brightness(92%);
+      width: 70%;
+      height: 70%;
+    }
+  }
+
+  span {
+    color: #979797;
+  }
+
+  p {
+    margin-top: 0.2rem;
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    border-radius: 8px;
+
+    & + p {
+      margin-left: 0.8rem;
+    }
+  }
+
+  // @include typeColor("Fire", $fire);
+  // @include typeColor("Normal", $normal);
+  // @include typeColor("Water", $water);
+  // @include typeColor("Grass", $grass, $font);
+  // @include typeColor("Ice", $ice);
+  // @include typeColor("Poison", $poison);
+  // @include typeColor("Ground", $ground);
+  // @include typeColor("Flying", $flying);
+  // @include typeColor("Bug", $bug);
+  // @include typeColor("Rock", $rock);
+  // @include typeColor("Ghost", $ghost);
+  // @include typeColor("Dragon", $dragon);
+  // @include typeColor("Dark", $dark);
+  // @include typeColor("Steel", $steel);
+  // @include typeColor("Fairy", $fairy);
+  // @include typeColor("Psychic", $psychic);
+  // @include typeColor("Electric", $electric);
+  // @include typeColor("Fighting", $fighting);
+}
